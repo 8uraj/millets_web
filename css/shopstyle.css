@@ -1,0 +1,72 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.onboard {
+    background: url("../assets/images/shopnowbgimg.jpg") 100% 0 no-repeat;
+    background-size: cover;
+    min-height:506px;
+    width: 100%;
+    display:table;
+}
+.onboard>div{
+    display: table-cell;
+    vertical-align: middle;
+}
+.div-alignment{
+    display: flex;
+}
+.middle{
+    text-align: center;
+}
+
+.img-align{
+    display: center;
+}
+i.fa.fa-calendar {
+    color: green;
+    font-size: 40px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .bgcolor{
+      background-color: black;
+      color: red;
+  }
+  .payment{
+      display: flex;
+  }
+  .border img {
+    height: 100%;
+}
+.section-1 ,.section-2{
+    padding: 100px 50px;
+}
+.prodcut-row{
+    display:flex;
+}
+.section-1-img img{
+    width: 100%;
+}
+.prodcut-row img {
+    width: 100%;
+}
+
+
+@media (max-width: 767px) {
+    .prodcut-row {
+        display: block;
+    }
+}

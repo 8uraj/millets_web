@@ -1,0 +1,9 @@
+/*.section-1{
+    padding-top: 50px;
+}*/
+.section-6,.section-5,.section-4,.section-3,.section-2,.section-1,.paddingtop{
+    padding-top: 60px;
+}
+img{
+    width: inherit;
+}

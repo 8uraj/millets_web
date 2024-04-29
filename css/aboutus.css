@@ -1,0 +1,13 @@
+.img-alignment{
+    width: 100%;
+    
+}
+.section-1 {
+    padding: 100px 50px;
+}
+.section-2{
+    padding: 50px 10px;
+}
+.section-3, .section-4 {
+    padding: 50px;
+}

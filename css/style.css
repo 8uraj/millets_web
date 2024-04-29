@@ -1,0 +1,63 @@
+.top-banner {
+    padding: 5px;
+    line-height: normal;
+    height: 30px;
+    text-align: right;
+}
+.home-banner{
+    padding:0;
+}
+div#demo img{
+    width:100%;
+}
+.social-media-icons {
+    text-align: right;
+    position: absolute;
+    right: 15px;
+    bottom: 45px;
+    display: flex;
+}
+
+.social-media-icons ul {
+    margin-bottom: 0;
+    padding-right: 10px;
+}
+
+.social-media-icons .fa {
+    color: #174C4F !important;
+}
+
+
+@media (min-width: 576px) {
+    .navbar-expand-sm .navbar-collapse {
+        float: right;
+        display: block;
+    }
+}
+#subscribe{
+    background-color: olive;
+    color: white;
+    height: 30%;
+}
+.payments{
+    background: yellowgreen;
+    color: white;
+    width: 100%;
+}
+/*
+@media(min-width: 650px){
+    body{
+        background: orange;
+    }
+}
+@media(min-width: 650px) and (max-width: 649px){
+    body{
+        background: purple;
+    }
+}
+*/ 
+
+
+
+
+
